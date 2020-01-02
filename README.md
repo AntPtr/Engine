@@ -1,11 +1,11 @@
-# Cratch Demo
+# Engine Demo
 Main cpp files are located in src folder.
 OpenGl 3D application project free to use and edit, still under development by Antonio Pietroluongo, 
 uses a 3d nanosuit model from Crysis for demo purpose.
 
-Current feature:
+Current features:
 -Camera and keyboard input
--Directional and point ligth
+-Directional and point ligths
 -Diffuse Texture
 -Specular Texture
 -Reflection Texture
