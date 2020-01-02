@@ -1,0 +1,29 @@
+#version 330 core
+layout (location = 0) in vec3 aPos;
+layout (location = 1) in vec2 aTexCoord;
+layout (location = 2) in vec3 aNormals;
+
+uniform vec4 offSet;
+uniform mat4 rot;
+uniform mat4 scale;
+uniform mat4 model;
+uniform mat4 view;
+uniform mat4 proj;
+uniform vec3 viewPos;
+uniform vec3 ligthVec;
+
+out vec2 texCoord;
+out vec3 Normals;
+out vec3 fragPos;
+out vec3 camPos;
+out vec3 ligthPos;
+
+void main()
+{
+   gl_Position = proj * view * model * vec4(aPos, 1.0f);
+   texCoord = aTexCoord;
+   Normals = mat3(transpose(inverse(view * model))) * aNormals;
+   fragPos = vec3(view* model* vec4(aPos,  1.0));
+   camPos = viewPos;
+   ligthPos = vec3(view * vec4(ligthVec, 1.0));
+}

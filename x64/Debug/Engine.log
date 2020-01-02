@@ -1,0 +1,19 @@
+﻿  App.cpp
+C:\Users\Antonio\source\repos\Engine\Engine\src\App.cpp(168,11): warning C4244:  '=': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Users\Antonio\source\repos\Engine\Engine\src\App.cpp(169,11): warning C4244:  '=': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Users\Antonio\source\repos\Engine\Engine\src\App.cpp(174,16): warning C4244:  'inizializzazione': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Users\Antonio\source\repos\Engine\Engine\src\App.cpp(175,16): warning C4244:  'inizializzazione': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Users\Antonio\source\repos\Engine\Engine\src\App.cpp(176,10): warning C4244:  '=': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Users\Antonio\source\repos\Engine\Engine\src\App.cpp(177,10): warning C4244:  '=': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Users\Antonio\source\repos\Engine\Engine\src\App.cpp(293,21): warning C4244:  'inizializzazione': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Users\Antonio\source\repos\Engine\Engine\src\App.cpp(335,51): warning C4305:  'argomento': troncamento da 'double' a 'float'
+C:\Users\Antonio\source\repos\Engine\Engine\src\App.cpp(336,55): warning C4305:  'argomento': troncamento da 'double' a 'float'
+C:\Users\Antonio\source\repos\Engine\Engine\src\App.cpp(351,51): warning C4305:  'argomento': troncamento da 'double' a 'float'
+C:\Users\Antonio\source\repos\Engine\Engine\src\App.cpp(352,55): warning C4305:  'argomento': troncamento da 'double' a 'float'
+C:\Users\Antonio\source\repos\Engine\Engine\src\App.cpp(367,51): warning C4305:  'argomento': troncamento da 'double' a 'float'
+C:\Users\Antonio\source\repos\Engine\Engine\src\App.cpp(368,55): warning C4305:  'argomento': troncamento da 'double' a 'float'
+C:\Users\Antonio\source\repos\Engine\Engine\src\App.cpp(383,51): warning C4305:  'argomento': troncamento da 'double' a 'float'
+C:\Users\Antonio\source\repos\Engine\Engine\src\App.cpp(384,55): warning C4305:  'argomento': troncamento da 'double' a 'float'
+C:\Users\Antonio\source\repos\Engine\Engine\src\App.cpp(399,51): warning C4305:  'argomento': troncamento da 'double' a 'float'
+C:\Users\Antonio\source\repos\Engine\Engine\src\App.cpp(400,55): warning C4305:  'argomento': troncamento da 'double' a 'float'
+  Engine.vcxproj -> C:\Users\Antonio\source\repos\Engine\x64\Debug\Engine.exe

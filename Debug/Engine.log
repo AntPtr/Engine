@@ -1,0 +1,32 @@
+﻿  glad.c
+  Mesh.cpp
+  Camera.cpp
+  App.cpp
+C:\Users\Antonio\source\repos\Engine\Engine\src\App.cpp(109,11): warning C4244:  '=': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Users\Antonio\source\repos\Engine\Engine\src\App.cpp(110,11): warning C4244:  '=': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Users\Antonio\source\repos\Engine\Engine\src\App.cpp(115,16): warning C4244:  'inizializzazione': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Users\Antonio\source\repos\Engine\Engine\src\App.cpp(116,16): warning C4244:  'inizializzazione': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Users\Antonio\source\repos\Engine\Engine\src\App.cpp(117,10): warning C4244:  '=': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Users\Antonio\source\repos\Engine\Engine\src\App.cpp(118,10): warning C4244:  '=': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Users\Antonio\source\repos\Engine\Engine\src\App.cpp(275,21): warning C4244:  'inizializzazione': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Users\Antonio\source\repos\Engine\Engine\src\App.cpp(317,51): warning C4305:  'argomento': troncamento da 'double' a 'float'
+C:\Users\Antonio\source\repos\Engine\Engine\src\App.cpp(318,55): warning C4305:  'argomento': troncamento da 'double' a 'float'
+C:\Users\Antonio\source\repos\Engine\Engine\src\App.cpp(333,51): warning C4305:  'argomento': troncamento da 'double' a 'float'
+C:\Users\Antonio\source\repos\Engine\Engine\src\App.cpp(334,55): warning C4305:  'argomento': troncamento da 'double' a 'float'
+C:\Users\Antonio\source\repos\Engine\Engine\src\App.cpp(349,51): warning C4305:  'argomento': troncamento da 'double' a 'float'
+C:\Users\Antonio\source\repos\Engine\Engine\src\App.cpp(350,55): warning C4305:  'argomento': troncamento da 'double' a 'float'
+C:\Users\Antonio\source\repos\Engine\Engine\src\App.cpp(365,51): warning C4305:  'argomento': troncamento da 'double' a 'float'
+C:\Users\Antonio\source\repos\Engine\Engine\src\App.cpp(366,55): warning C4305:  'argomento': troncamento da 'double' a 'float'
+  Shader.cpp
+  stb_image.cpp
+  Generazione del codice in corso...
+C:\Users\Antonio\source\repos\Engine\Engine\src\App.cpp(429,43): warning C4305:  'argomento': troncamento da 'double' a 'T'
+C:\Users\Antonio\source\repos\Engine\Engine\src\App.cpp(429,43): warning C4305:         with
+C:\Users\Antonio\source\repos\Engine\Engine\src\App.cpp(429,43): warning C4305:         [
+C:\Users\Antonio\source\repos\Engine\Engine\src\App.cpp(429,43): warning C4305:             T=float
+C:\Users\Antonio\source\repos\Engine\Engine\src\App.cpp(429,43): warning C4305:         ]
+LINK : warning LNK4098: la libreria predefinita 'MSVCRT' è in conflitto con l'utilizzo di altre librerie; usare /NODEFAULTLIB:libreria
+Mesh.obj : error LNK2019: riferimento al simbolo esterno "public: __thiscall Assimp::Importer::Importer(void)" (??0Importer@Assimp@@QAE@XZ) non risolto nella funzione "void __cdecl `dynamic initializer for 'importer''(void)" (??__Eimporter@@YAXXZ)
+Mesh.obj : error LNK2019: riferimento al simbolo esterno "public: __thiscall Assimp::Importer::~Importer(void)" (??1Importer@Assimp@@QAE@XZ) non risolto nella funzione "void __cdecl `dynamic atexit destructor for 'importer''(void)" (??__Fimporter@@YAXXZ)
+C:\Users\Antonio\source\repos\Engine\Dependecies\Assi\assimp-vc140-mt.lib : warning LNK4272: il tipo 'x64' del computer della libreria è in conflitto con il tipo 'x86' del computer di destinazione
+C:\Users\Antonio\source\repos\Engine\Debug\Engine.exe : fatal error LNK1120: 2 esterni non risolti
