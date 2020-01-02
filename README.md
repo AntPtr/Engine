@@ -1,4 +1,4 @@
-#Cratch Demo
+# Cratch Demo
 Main cpp files are located in src folder.
 OpenGl 3D application project free to use and edit, still under development by Antonio Pietroluongo, 
 uses a 3d nanosuit model from Crysis for demo purpose.
