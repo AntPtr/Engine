@@ -14,9 +14,7 @@ void Mesh::setupMesh() {
 	glBindVertexArray(VAO);
 	// load data into vertex buffers
 	glBindBuffer(GL_ARRAY_BUFFER, VBO);
-	// A great thing about structs is that their memory layout is sequential for all its items.
-	// The effect is that we can simply pass a pointer to the struct and it translates perfectly to a glm::vec3/2 array which
-	// again translates to 3/2 floats which translates to a byte array.
+	
 	glBufferData(GL_ARRAY_BUFFER, vertices.size() * sizeof(Vertex), &vertices[0], GL_STATIC_DRAW);
 
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
@@ -48,7 +46,7 @@ void Mesh::draw(cShaderProg shader) {
 	for (unsigned int i = 0; i < textures.size(); i++)
 	{
 		glActiveTexture(GL_TEXTURE0 + i); // active proper texture unit before binding
-		// retrieve texture number (the N in diffuse_textureN)
+		
 		std::string number;
 		std::string name = textures[i].type;
 		if (name == "texture_diffuse") 
@@ -63,7 +61,7 @@ void Mesh::draw(cShaderProg shader) {
 			number = std::to_string(refleNr++);
 												 
 		shader.set_int(("material." +name + number).c_str(), i);
-		// and finally bind the texture
+		
 		glBindTexture(GL_TEXTURE_2D, textures[i].id);
 	}
 
